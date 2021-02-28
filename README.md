@@ -1,3 +1,4 @@
+# Hand Gesture to Emoji
 ## Dependencies
 
 * Python 3, [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/)
@@ -42,9 +43,22 @@ python gesture.py --mode display
 
 * The emotion with maximum score is displayed on the screen.
 
+# Video Chat Application
+* Made using NodeJs and WebRTC. 
+## Required packages
+* npm
+* Express
+* Socket.io
+* peerjs
+* uuid
+## Steps to run
+* Run  `peerjs --port 3001` on terminal for establising peer to peer connection. <br/>
+* Run `npm run devStart` for starting server
 
+# Work to be Done
+* The video app needs to have the ML pipeline so that we can see the emoji's on live interaction.
 
-## Team ( VECTOR )
+# Team ( VECTOR )
 
 - Gaurav Singh
 - Aniket Agrawal
