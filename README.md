@@ -23,9 +23,8 @@ python gesture.py --mode display
 
 * The folder structure is of the form:  
   src:
-  * data (folder)
   * `gesture.py` (file)
-  * `haarcascade_frontalface_default.xml` (file)
+  * `aGest.xml` (haar cascade file)
   * `model.h5` (file)
 
 * This implementation by default detects gestures on all hands in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 58.2% in 50 epochs.
