@@ -10,8 +10,8 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 * First, clone the repository and enter the folder
 
 ```bash
-git clone 
-cd Emotion-detection
+git clone https://github.com/Janmansh/Hackverse-2.0.git
+cd Hackverse-2.0
 ```
 
 
