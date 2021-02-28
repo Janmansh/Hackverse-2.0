@@ -42,3 +42,10 @@ python gesture.py --mode display
 
 * The emotion with maximum score is displayed on the screen.
 
+
+
+## Team ( VECTOR )
+
+- Gaurav Singh
+- Aniket Agrawal
+- Janmansh Agarwal
