@@ -14,7 +14,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # command line argument
 ap = argparse.ArgumentParser()
-ap.add_argument("--mode",help="train/display")
+ap.add_argument("--mode",help="display")
 mode = ap.parse_args().mode
 
 # plots accuracy and loss curves
@@ -93,7 +93,7 @@ if mode == "display":
     # prevents openCL usage and unnecessary logging messages
     cv2.ocl.setUseOpenCL(False)
 
-    # dictionary which assigns each label an emotion (alphabetical order)
+    # dictionary which assigns each label a gesture (alphabetical order)
     gesture_dict = {0: "four", 1: "L", 2: "three", 3: "thumbsup", 4: "two", 5: "up"}
 
     # start the webcam feed
