@@ -17,7 +17,6 @@ cd Hackverse-2.0
 
 
 ```bash
-cd src
 python gesture.py --mode display
 ```
 
