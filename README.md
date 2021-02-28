@@ -27,7 +27,7 @@ python gesture.py --mode display
   * `model.h5` (file)
 
 * This implementation by default detects gestures on all hands in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 58.2% in 50 epochs.
-
+Press 'q' to close the camera when finished
 
 
 
@@ -37,7 +37,7 @@ python gesture.py --mode display
 
 * The region of image containing the face is resized to **90x70** and is passed as input to the CNN.
 
-* The network outputs a list of **softmax scores** for the seven classes of emotions.
+* The network outputs a list of **softmax scores** for the ten classes of emotions.
 
 * The emotion with maximum score is displayed on the screen.
 
